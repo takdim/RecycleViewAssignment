@@ -37,28 +37,8 @@ public class Detail extends AppCompatActivity {
         tvGenre.setText(genre);
         tvDescription.setText(description);
 
-//        getIncomingExtra();
+
 
     }
-//
-//    private void getIncomingExtra() {
-//        if(getIntent().hasExtra("photo") && getIntent().hasExtra("name") && getIntent().hasExtra("genre") && getIntent().hasExtra("detail")){
-//            String foto = getIntent().getStringExtra("photo");
-//            String judul = getIntent().getStringExtra("name");
-//            String genre = getIntent().getStringExtra("genre");
-//            String description = getIntent().getStringExtra("detail");
-//
-//            setDataActivity(foto, judul, genre, description);
-//
-//        }
-//    }
-//
-//    private void setDataActivity(String foto, String judul, String genre, String description) {
-//
-//        Glide.with(Detail.this).asBitmap().load(foto).into(photo);
-//
-//        tvJudul.setText(judul);
-//        tvGenre.setText(genre);
-//        tvDescription.setText(description);
-//    }
+
 }
