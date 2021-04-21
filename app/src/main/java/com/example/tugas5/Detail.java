@@ -2,7 +2,9 @@ package com.example.tugas5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -41,4 +43,9 @@ public class Detail extends AppCompatActivity {
 
     }
 
+    public void btnBack(View view) {
+        Intent goBack = new Intent(Detail.this,MainActivity.class);
+        goBack.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(goBack);
+    }
 }
